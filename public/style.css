@@ -102,3 +102,11 @@ td:nth-child(1) {
   border-bottom-right-radius: 10px;
   border-top-right-radius: 10px;
 }
+blockquote {
+  padding: 10px;
+  background-color: rgb(115 192 255 / 12%);
+  border-left: 10px solid rgb(115 192 255);
+  padding-left: 25px;
+  font-size: 0.8em;
+  font-weight: 400;
+}
