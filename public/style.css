@@ -2,6 +2,10 @@
 :root {
   --accent-clr: rgb(100, 185, 255);
 }
+::selection {
+  color: black;
+  background: rgb(173, 218, 255);
+}
 * {
   margin: 0;
   padding: 0;
@@ -21,6 +25,19 @@ body {
 }
 html {
   overflow-x: hidden;
+}
+a {
+  color: rgb(0, 140, 255);
+}
+kbd {
+  display: inline-block;
+  background-color: rgba(0, 140, 255, 0.151);
+  color: black;
+  border-radius: 10em;
+  padding: 2px 1em;
+  font-size: 0.9em;
+  cursor: pointer;
+  color: rgba(0, 67, 122, 0.699);
 }
 h1 {
   width: 100%;
